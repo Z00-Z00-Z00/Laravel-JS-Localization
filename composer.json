@@ -60,19 +60,19 @@
     },
     "autoload": {
         "psr-4": {
-            "ZooZooZoo\\LaravelJsLocalization\\": "src/Mariuzzo/LaravelJsLocalization/"
+            "Mariuzzo\\LaravelJsLocalization\\": "src/Mariuzzo/LaravelJsLocalization/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ZooZooZoo\\LaravelJsLocalization\\": "tests/specs"
+            "Mariuzzo\\LaravelJsLocalization\\": "tests/specs"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "ZooZooZoo\\LaravelJsLocalization\\LaravelJsLocalizationServiceProvider"
+                "Mariuzzo\\LaravelJsLocalization\\LaravelJsLocalizationServiceProvider"
             ]
         }
     }
