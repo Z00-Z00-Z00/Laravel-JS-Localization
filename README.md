@@ -25,7 +25,7 @@ This package convert all your localization messages from your Laravel app to Jav
 ## Installation
 
 ```shell
-composer require mariuzzo/laravel-js-localization
+composer require zoozoozoo/laravel-js-localization
 ```
 
 In your Laravel app go to `config/app.php` and add the following service provider:
