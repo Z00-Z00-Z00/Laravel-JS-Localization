@@ -52,7 +52,8 @@
         "source": "https://github.com/Z00-Z00-Z00/laravel-js-localization"
     },
     "require": {
-        "php": "^5.4 || ^7.0 || ^8.0"
+        "php": "^5.4 || ^7.0 || ^8.0",
+        "tedivm/jshrink": "^1.0"
     },
     "require-dev": {
         "orchestra/testbench": "^2.2 || ^3.0 || ^4.0 || ^5.0 || ^6.0 || ^7.0",
