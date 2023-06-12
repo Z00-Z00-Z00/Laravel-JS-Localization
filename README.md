@@ -17,7 +17,7 @@ This package convert all your localization messages from your Laravel app to Jav
 
 <table><tbody><tr><td>
 
-:star: **Webpack user?** Try the new and shiny [**Laravel localization loader**](https://github.com/rmariuzzo/laravel-localization-loader) for Webpack!
+:star: **Webpack user?** Try the new and shiny [**Laravel localization loader**](https://github.com/Z00-Z00-Z00/laravel-localization-loader) for Webpack!
 
 </td></tr></tbody></table>
 
@@ -31,12 +31,12 @@ composer require zoozoozoo/laravel-js-localization
 In your Laravel app go to `config/app.php` and add the following service provider:
 
 ```php
-Mariuzzo\LaravelJsLocalization\LaravelJsLocalizationServiceProvider::class
+ZooZooZoo\LaravelJsLocalization\LaravelJsLocalizationServiceProvider::class
 ```
 
 ## Usage
 
-The `Laravel-JS-Localization` package provides a command that generate the JavaScript version of all your messages found at: `app/lang` (Laravel 4) or `resources/lang` (Laravel 5) directory. The resulting JavaScript file will contain all your messages plus [Lang.js](https://github.com/rmariuzzo/lang.js) (a thin library highly inspired on Laravel's [`Translator`](https://laravel.com/api/5.4/Illuminate/Translation/Translator.html) class).
+The `Laravel-JS-Localization` package provides a command that generate the JavaScript version of all your messages found at: `app/lang` (Laravel 4) or `resources/lang` (Laravel 5) directory. The resulting JavaScript file will contain all your messages plus [Lang.js](https://github.com/Z00-Z00-Z00/lang.js) (a thin library highly inspired on Laravel's [`Translator`](https://laravel.com/api/5.4/Illuminate/Translation/Translator.html) class).
 
 ### Generating JS messages
 
@@ -73,7 +73,7 @@ php artisan lang:js --json
 First, publish the default package's configuration file running:
 
 ```shell
-php artisan vendor:publish --provider="Mariuzzo\LaravelJsLocalization\LaravelJsLocalizationServiceProvider"
+php artisan vendor:publish --provider="ZooZooZoo\LaravelJsLocalization\LaravelJsLocalizationServiceProvider"
 ```
 
 The configuration will be published to `config/localization-js.php`.
@@ -153,9 +153,9 @@ mix.webpackConfig({
 
 ## Documentation
 
-This is a quick documentation regarding [Lang.js](https://github.com/rmariuzzo/lang.js) (the thin JavaScript library included by `Laravel-JS-Localization`). The [Lang.js](https://github.com/rmariuzzo/lang.js) (a thin library highly inspired on Laravel's [`Translator`](https://laravel.com/api/5.3/Illuminate/Translation/Translator.html) class).
+This is a quick documentation regarding [Lang.js](https://github.com/Z00-Z00-Z00/lang.js) (the thin JavaScript library included by `Laravel-JS-Localization`). The [Lang.js](https://github.com/Z00-Z00-Z00/lang.js) (a thin library highly inspired on Laravel's [`Translator`](https://laravel.com/api/5.3/Illuminate/Translation/Translator.html) class).
 
- > 💁 Go to [Lang.js documentation]([Lang.js](https://github.com/rmariuzzo/lang.js)) to see all available methods.
+ > 💁 Go to [Lang.js documentation]([Lang.js](https://github.com/Z00-Z00-Z00/lang.js)) to see all available methods.
 
 ### Getting a message
 
@@ -193,7 +193,7 @@ Lang.choice('messages.apples', 10);
 Lang.choice('messages.apples', 10, { name: 'Joe' });
 ```
 
-> 💁 Go to [Lang.js documentation]([Lang.js](https://github.com/rmariuzzo/lang.js)) to see all available methods.
+> 💁 Go to [Lang.js documentation]([Lang.js](https://github.com/Z00-Z00-Z00/lang.js)) to see all available methods.
 
 ## Want to contribute?
 
