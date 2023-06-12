@@ -1,5 +1,5 @@
 {
-    "name": "mariuzzo/laravel-js-localization",
+    "name": "Zoo/laravel-js-localization",
     "description": "Laravel Localization in JavaScript",
     "type": "library",
     "keywords": [
@@ -11,7 +11,7 @@
         "js",
         "lang"
     ],
-    "homepage": "https://github.com/rmariuzzo/laravel-js-localization",
+    "homepage": "https://github.com/Z00-Z00-Z00/laravel-js-localization",
     "license": "MIT",
     "authors": [
         {
@@ -48,8 +48,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/rmariuzzo/laravel-js-localization/issues",
-        "source": "https://github.com/rmariuzzo/laravel-js-localization"
+        "issues": "https://github.com/Z00-Z00-Z00/laravel-js-localization/issues",
+        "source": "https://github.com/Z00-Z00-Z00/laravel-js-localization"
     },
     "require": {
         "php": "^5.4 || ^7.0 || ^8.0"
@@ -60,19 +60,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Mariuzzo\\LaravelJsLocalization\\": "src/Mariuzzo/LaravelJsLocalization/"
+            "Zoo\\LaravelJsLocalization\\": "src/Mariuzzo/LaravelJsLocalization/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mariuzzo\\LaravelJsLocalization\\": "tests/specs"
+            "Zoo\\LaravelJsLocalization\\": "tests/specs"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Mariuzzo\\LaravelJsLocalization\\LaravelJsLocalizationServiceProvider"
+                "Zoo\\LaravelJsLocalization\\LaravelJsLocalizationServiceProvider"
             ]
         }
     }
