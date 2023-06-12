@@ -1,5 +1,5 @@
 {
-    "name": "Zoo/laravel-js-localization",
+    "name": "zoozoozoo/laravel-js-localization",
     "description": "Laravel Localization in JavaScript",
     "type": "library",
     "keywords": [
@@ -60,19 +60,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Zoo\\LaravelJsLocalization\\": "src/Mariuzzo/LaravelJsLocalization/"
+            "ZooZooZoo\\LaravelJsLocalization\\": "src/Mariuzzo/LaravelJsLocalization/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zoo\\LaravelJsLocalization\\": "tests/specs"
+            "ZooZooZoo\\LaravelJsLocalization\\": "tests/specs"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Zoo\\LaravelJsLocalization\\LaravelJsLocalizationServiceProvider"
+                "ZooZooZoo\\LaravelJsLocalization\\LaravelJsLocalizationServiceProvider"
             ]
         }
     }
